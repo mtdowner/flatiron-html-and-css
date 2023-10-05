@@ -1,0 +1,146 @@
+
+.header .logo {
+    float: left;
+  }
+  .header .navigation {
+    float: left;
+  }
+  .header {
+    background: #212a2d;
+    overflow: auto;
+  }
+  .header .logo {
+    float: left;
+    padding: 10px 0;
+  }
+  .header .navigation {
+    float: left;
+    list-style: none;
+    padding: 0;
+    margin: 35px 0 0 -67px;
+  }
+  .header .navigation li {
+    float: left;
+    padding: 20px;
+  }
+  .header .navigation li a {
+    color: #f5eee0;
+    font-weight: bold;
+    padding: 4px;
+    text-decoration: none;
+  }
+  .header .navigation li a.active,
+  .header .navigation li a:hover {
+    border-bottom: 2px solid #8C4CF7;
+  }
+a.button {
+  background: #ac43ec;
+  border-radius: 4px;
+  color: #fff;
+  display: inline-block;
+  font-size: .8rem;
+  font-weight: bold;
+  margin: 10px 0;
+padding: 8px 20px;
+text-decoration: none;
+text-transform: uppercase;
+}
+.container {
+  margin: auto;
+  overflow: auto;
+  max-width: 900px;
+}
+.hero {
+  background: #2e373c url(planets.png) center center no-repeat;
+  color: #f5eee0;
+  padding: 80px 20px 60px 20px;
+}
+.hero h1 {
+  background: #212a2d;
+  border-left: 6px solid #ac43ec;
+  border-radius: 0 4px 4px 0;
+  color: #fff;
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 14px 25px;
+}
+.hero p {
+  font-size: 1rem;
+  line-height: 1.5;
+  max-width: 700px;
+}
+.main .primary {
+  float: left;
+  margin-right: 5%;
+  width: 60%;
+}
+.main .secondary {
+  float: right;
+  width: 35px;
+  margin-top: 100px;
+}
+.container {
+  margin: auto;
+  overflow: auto;
+  width: 900px;
+}
+.small-text {
+  font-size: 12px;
+  line-height: 22px;
+}
+.main .planet-review {
+  background: #fff;
+  border-left: 4px solid #8C4CF7;
+  border-radius: 0 4px 4px 0;
+  margin: 40px 0;
+  padding: 40px 28px 13px;
+}
+.main .planet-review .button {
+  float: right;
+}
+.main .planet-review .planet-rating {
+  background: #f9ecff;
+  border-left: 4px solid #eedbf7;
+  border-radius: 0 4px 4px 0;
+  color: #8C4CF7;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 11px 14px;
+}
+.main .planet-review .planet-rating .planet-rating-star {
+  vertical-align: bottom;
+}
+.main .planet-review .planet-rating .planet-rating-text {
+  margin-left: 6px;
+}
+.main .planet-review .planet-img {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+.secondary .content-block {
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 0 0 4px 4px;
+  border-top: 4px solid #eedbf7;
+  margin: 40px 0;
+}
+.secondary .customer-name {
+  border-top: 1px dashed #e0d9cf;
+  color: #8C4CF7;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 10px 0;
+  padding-top: 20px;
+}
+.secondary .customer-title {
+  color: #d3a9e6;
+  font-size: 10px;
+  font-weight: bold;
+}
+.secondary .customer-img {
+  background: #eedbf7;
+  border-radius: 50%;
+  display: block;
+  margin: -70px auto 20px;
+  
+}
