@@ -7,11 +7,11 @@ body {
     font-size: 1rem;
     margin: 0;  
 }
-h1, h2, h3, h4 {
+h1, h2, h3 {
     font-family: "space-grotesk-variable",sans-serif;
     font-variation-settings: 'wght' 700;
 }
-h3, h4, a, strong {
+h3, a, strong {
     color: #8c4cf7;
 }
 h1 {
