@@ -2,19 +2,16 @@
     background: #212a2d;
     overflow: auto;
   }
-
   .header .logo {
     float: left;
     padding: 10px 0;
   }
-
   .header .nav {
     float: left;
     list-style: none;
     padding: 0;
     margin: 35px 0 0 -67px;
   }
-
   .header .nav li {
     float: left;
     padding: 20px;
@@ -160,3 +157,73 @@
     width: 15px;
     height: auto;
   }
+
+  .archive {
+  background-color: #212a2d;
+  margin: 80px 0 0 0;
+  overflow: hidden;
+  }
+
+  .archive .article {
+  float: left;
+  width: 33.33%;
+  position: relative;
+  }
+
+  .archive h1 {
+  background: #fff;
+  color: #8C4CF7;
+  padding: 20px;
+  text-align: center;
+  }
+
+  .archive .article h2 {
+  color: #fff;
+  left: 20px;
+  bottom: 20px;
+  position: absolute;
+  width: 60%;
+  z-index: 1;
+  }
+
+.archive  .article:hover {
+  opacity: 1;
+}
+
+.archive .article img {
+  opacity: 0.75;
+  width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .header { text-align: center; }
+  .header .logo { float: none; }
+
+  .header .navigation {
+    float: none;
+    margin: 0 0 20px 0;
+  }
+
+  .header .navigation li {
+    float: none;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .container {
+    margin: 0 20px;
+    width: auto;
+  }
+
+  .main .primary,
+  .main .secondary {
+    float: none;
+    margin: 60px 0;
+    width: 100%;
+  }
+
+  .archive .article {
+    float: none;
+    width: 100%;
+  }
+}
