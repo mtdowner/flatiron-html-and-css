@@ -4,26 +4,28 @@ body {
     color: #6f6f6f;
     font-family: "space-grotesk-variable",sans-serif;
     font-variation-settings: 'wght' 300;
-    font-size: 1rem;
     margin: 0;  
 }
 h1, h2, h3, h4 {
     font-family: "space-grotesk-variable",sans-serif;
     font-variation-settings: 'wght' 700;
 }
-h3, a, strong {
+ h2, h3, h4, strong {
     color: #8c4cf7;
 }
 h1 {
-    font-size: 2rem;
+    font-size: 2.25em;
     margin: 0;
 }
 h2 {
     color: #212a2d;
-    font-size: 1.75rem;
+    font-size: 1.625em;
 }
 h3 {
-    font-size: 1.5rem;
+    font-size: 1.25em;
+}
+h4 {
+    font-size: .875em;
 }
 p {
     line-height: 1.5;

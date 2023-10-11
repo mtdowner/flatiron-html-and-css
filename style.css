@@ -5,6 +5,8 @@
   .header .logo {
     float: left;
     padding: 10px 0;
+    width: 8.125em;
+    height: auto;
   }
   .header .nav {
     float: left;
@@ -31,7 +33,7 @@
     border-radius: 4px;
     color: #fff;
     display: inline-block;
-    font-size: .8rem;
+    font-size: .75em;
     font-weight: bold;
     margin: 10px 0;
     padding: 8px 20px;
@@ -41,7 +43,7 @@
   .container {
     margin: auto;
     overflow: auto;
-    max-width: 900px;
+    max-width: 56.25em;
   }
   .hero {
     background: #2e373c url(images/planets.png) center center no-repeat;
@@ -60,7 +62,7 @@
   .hero p {
     font-size: 1rem;
     line-height: 1.5;
-    max-width: 700px;
+    max-width: 40.75em;
   }
   .main .primary {
     float: left;
@@ -70,11 +72,11 @@
   .main .secondary {
     float: right;
     width: 35%;
-    margin-top: 100px;
+    margin-top: 6.25em;
   }
   .small-text {
-    font-size: 12px;
-    line-height: 22px;
+    font-size: .75em;
+    line-height: 1.375rem;
   }
   .main .planet-review {
     background: #fff;
@@ -111,7 +113,7 @@
   .main .planet-review .planet-img {
     float: left;
     margin: 0 20px 20px 0;
-    width: 130px;
+    width: 8.125em;
     height: auto;
   }
   .secondary .content-block {
@@ -144,7 +146,7 @@
     height: auto;
   }
   .planet-img {
-    width: 130px;
+    width: 8.125em;
     height: auto;
   }
   .planet-rating-star {
